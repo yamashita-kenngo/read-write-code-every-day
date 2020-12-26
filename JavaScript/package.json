@@ -1,0 +1,20 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^3.14.0",
+    "esm": "^3.2.25"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  }
+}
