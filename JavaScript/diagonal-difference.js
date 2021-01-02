@@ -33,7 +33,6 @@ export function outPutLeftDiagonalList(inputList, metrixRange) {
     const output = inputList[i][x];
     outputList.push(output);
     i++;
-    console.log(i, x);
   }
   return outputList;
 }
